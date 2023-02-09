@@ -13,7 +13,7 @@ app = dash.Dash()
 
 # Create the layout of the app
 app.layout = html.Div([
-    html.H1("Real Dataset"),
+    html.H1("Real Dataset2"),
     dcc.Graph(
         id="dataset-graph",
         figure=px.line(df, x="sepal_width", y="petal_length", title="sepal_width VS petal_length ")
